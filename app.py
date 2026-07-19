@@ -19,7 +19,7 @@ def get_base64(path):
         return base64.b64encode(file.read()).decode()
 
 hero = get_base64("assets/hero.jpg")
-logo = get_base64("assets/logo.png")
+
 
 # ---------------- LOAD MODEL ----------------
 model = joblib.load("model.pkl")
